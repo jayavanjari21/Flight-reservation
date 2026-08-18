@@ -1,9 +1,50 @@
-# Flight Reservation System
+#**Flight Reservation Application**
+
+**Project Overview**
+The Flight Reservation Application is a web-based application designed to manage flight reservation operations.
+The application consists of:
+1.Frontend
+2.Java Backend
+3.MySQL Database
+The project is built using Java and Maven for the backend, a frontend application using Node.js/npm, and MySQL for database management.
+
+**Architecture**
+User
+ |
+ v
+Frontend
+ |
+ v
+Java Backend
+ |
+ v
+MySQL Database
+
+**Technologies Used**
+Backend: Java
+Build Tool: Maven
+Frontend: Node.js / npm
+Database: MySQL
+Web Server: Aws
+Operating System: Linux
+Version Control: Git and GitHub
+
+**Project Structure**
+Flight-reservation/
+│
+├── FlightReservationApplication/   # Java Backend
+├── frontend/                       # Frontend Application
+├── sql.txt                         # Database setup
+├── BuildCommands.txt               # Build instructions
+└── README.md                       # Project documentation
+
 ---
-## Steps to deploy Application
+
+**Steps to deploy Application**
 1. Clone this repository
 ```shell
-git clone https://github.com/shubhamkalsait/Flight-reservation.git
+git clone https://github.com/jayavanjari21/Flight-reservation.git
+cd Flight-reservation
 ```
 
 2. Install Mysql Server and create database
